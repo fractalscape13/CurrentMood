@@ -1,0 +1,37 @@
+﻿body, html {
+  min-height: 100%;
+}
+
+body {
+  background-color: darkred;
+  background-image: linear-gradient(black, indigo, rgb(2, 97, 134), goldenrod, darkred);
+  text-align: center;
+  font-family: courier;
+  color: rgb(255, 255, 240);
+  margin-top: 25px;
+  background-repeat: no-repeat;
+}
+
+input {
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  color: ivory;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  border: 3px solid ivory;
+  border-radius: 15px;
+  background-image: radial-gradient(rgb(94, 92, 92), rgb(18, 18, 155));
+  color: ivory;
+  margin: 25px;
+  font-size: 140%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: .8;
+}
